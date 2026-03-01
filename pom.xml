@@ -79,6 +79,7 @@
     </dependencies>
 
     <build>
+        <sourceDirectory>src/Java</sourceDirectory>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -113,12 +114,6 @@
                         </goals>
                     </execution>
                 </executions>
-                <configuration>
-                    <outputDirectory>${project.build.directory}/site/jacoco</outputDirectory>
-                    <reports>
-                        <xml>true</xml>
-                    </reports>
-                </configuration>
             </plugin>
         </plugins>
     </build>
