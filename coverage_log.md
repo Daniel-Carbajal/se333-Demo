@@ -5,5 +5,5 @@
 - **Tests Added**:
   - DashBoardControllerTest
   - HTMLRendererTest
-- **Coverage Improvement**: Pending
+- **Coverage Improvement**: 100% for selected targets
 - **Issues Found/Fixed**: None
